@@ -1,0 +1,272 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Questrial", sans-serif;
+    scroll-behavior: smooth;
+    color: white;}
+body{ background-color: #ffffff;
+    font-family: "Questrial", sans-serif;
+  display: grid;}
+.logo{ margin-left: 1%;
+    margin-top: -5px;
+    width: 100px;
+    height: 100px;
+ vertical-align: middle;}
+
+.quadro{background-color: rgba(135, 184, 197, 1);
+    height: 82px;}
+
+.bntHome{margin-top: -5px;
+    margin-left: 12%;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;}
+.bntHome:hover{
+    color: #2F4157;
+    transition: 0.5s;}
+
+.bntAbout{ margin-top:-5px;
+    margin-left: 2%;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #2F4157;
+    text-decoration: none;}
+
+
+.bntProdutos{ margin-top: -5px;
+    margin-left: 2%;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;}
+.bntProdutos:hover{
+    color: #2F4157;
+    transition: 0.5s;}
+
+.bntContato{ margin-top: -5px;
+    margin-left: 2%;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;}
+.bntContato:hover{
+    color: #2F4157;
+    transition: 0.5s;}
+
+.bntCadrastro{ margin-top: -5px;
+    margin-left: 2%;
+    line-height: 24px;
+    
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;}
+.bntCadrastro:hover{
+    color: #2F4157;
+    transition: 0.5s;}
+        
+.bntPedidos{ margin-top:-5px;
+    margin-left: 2%;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;}
+.bntPedidos:hover{
+    color: #2F4157;
+    transition: 0.5s;}
+.banho{background-image: url(imagem/muie.png);
+     background-size: cover;
+  background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;}
+
+#pag1{height: 700px;
+background-color: #ffffff;}
+.homi{height: 67vh;
+margin-top: 240px;
+width: 105vh;}
+.ruiva{height: 68vh;
+margin-top: -4px;
+width: 103vh;
+margin-left: 768px;}
+.muie{height: 67vh;
+margin-top: -4px;
+width: 105vh;}
+
+#verde{background-color: rgba(123, 151, 137, 1);
+    height: 170px;
+margin-top: 1009px;}
+.texto{color:rgb(255, 255, 255);
+ margin-top: 49px;
+  margin-left: 30%;
+text-align: center;
+font-weight: bold;
+font-size: 30px;
+position: absolute;}
+
+#pag5{background-color: rgba(135, 184, 197, 1);
+height: 500px;}
+ .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 100px;
+      align-items: flex-start;
+      color: #fff;
+    }
+
+    .logo {
+      font-family: serif;
+      font-size: 120px;
+      line-height: 0.8;
+      color: #fdfcf8;
+    }
+
+    .help-section {
+      max-width: 300px;
+    }
+
+    .help-section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .help-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .help-section ul li {
+      margin-bottom: 12px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .social-section {
+      text-align: center;
+    }
+
+    .social-section h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .social-icons i {
+      font-size: 36px;
+      margin: 0 10px;
+      color: #fdfcf8;
+      cursor: pointer;
+    }
+
+    .social-icons i:hover {
+      color: #333;
+    }
+
+
+.historia{margin-top: -30%;
+margin-left: 54%;
+position: absolute;}
+  .clean{color:rgba(47, 65, 87, 1);
+  font-family: Lora;
+margin-left: 60px; 
+font-weight: bold;
+font-size: 50px;}
+  .skin{margin-top: 10%;
+     line-height: 2.3;
+    color:rgba(47, 65, 87, 1);
+margin-left: 53%; 
+color: #000000;
+font-size: 16px;
+text-align: center; /* Centraliza o texto */
+  max-width: 700px;   /* Mantém o texto em uma largura confortável */
+  margin: 15px;     /* Centraliza o bloco na página */
+}
+
+
+.historia2{margin-top: -30%;
+margin-left: -0%;
+position: absolute;}
+  .clean2{color:rgba(47, 65, 87, 1);
+  font-family: Lora;
+margin-left: 60px; 
+font-weight: bold;
+font-size: 45px;}
+  .tec{margin-top: 10%;
+     line-height: 1.9;
+    color:rgba(47, 65, 87, 1);
+ margin-left: 10%;
+color: #000000;
+font-size: 16px;
+text-align: center; /* Centraliza o texto */
+  max-width: 700px;   /* Mantém o texto em uma largura confortável */
+  margin: 20px;     /* Centraliza o bloco na página */
+}
+.texto2{color: #000000;
+  font-size: 20px;
+  margin-top: 15px;
+  margin: 30px 0;
+font-size: 16px;
+  line-height: 0.1;
+  margin-left: 10%;}
+.tec2{margin-top: 10%;
+     line-height: 2.3;
+    color:rgba(47, 65, 87, 1);
+margin-left: 53%; 
+color: #000000;
+font-size: 16px;
+text-align: center; /* Centraliza o texto */
+  max-width: 700px;   /* Mantém o texto em uma largura confortável */
+  margin: 15px;     /* Centraliza o bloco na página */}
+
+
+  .historia3{margin-top: -30%;
+margin-left: 53%;
+position: absolute;}
+  .clean3{color:rgba(47, 65, 87, 1);
+  font-family: Lora;
+margin-left: 60px; 
+font-weight: bold;
+font-size: 50px;
+margin-left: 90px;}
+.quem{margin-top: 10%;
+     line-height: 1.9;
+    color:rgba(47, 65, 87, 1);
+ margin-left: 10%;
+color: #000000;
+font-size: 16px;
+text-align: center; /* Centraliza o texto */
+  max-width: 700px;   /* Mantém o texto em uma largura confortável */
+  margin: 20px;     /* Centraliza o bloco na página */
+}
+.texto3{color: #000000;
+  font-size: 20px;
+  margin-top: 15px;
+  margin: 30px 0;
+font-size: 16px;
+  line-height: 1.1;
+  margin-left: 10%;}
+.quem2{
+     line-height: 1.8;
+    color:rgba(47, 65, 87, 1);
+margin-left: 53%; 
+color: #000000;
+font-size: 16px;
+text-align: center; /* Centraliza o texto */
+  max-width: 700px;   /* Mantém o texto em uma largura confortável */
+  margin: 15px;  
+  position: 50px;   /* Centraliza o bloco na página */}
